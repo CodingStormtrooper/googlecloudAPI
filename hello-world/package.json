@@ -1,0 +1,20 @@
+{
+  "name": "appengine",
+  "description": "Test GoogleCloudAPI ",
+  "version": "0.0.1",
+  "private": true,
+  "license": "ISC",
+  "author": "Allysha Bilges",
+  "engines": {
+    "node": ">=4.3.2"
+  },
+  "scripts": {
+    "deploy": "gcloud app deploy",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4"
+  },
+  "devDependencies": {}
+}
